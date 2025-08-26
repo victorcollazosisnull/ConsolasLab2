@@ -6,6 +6,12 @@ public class Bala : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            kills counter = FindAnyObjectByType<kills>();
+            if (counter != null)
+            {
+                counter.AddKill();
+            }
+
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
