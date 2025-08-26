@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "InputCañon",
+    "maps": [
+        {
+            "name": "game",
+            "id": "9090b670-4ce6-4846-900d-625a2945e582",
+            "actions": [
+                {
+                    "name": "cañon",
+                    "type": "Value",
+                    "id": "4dd45334-9770-4542-a900-95712e0c7f9c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "907003ab-89c9-433c-a35d-bf57dddf016f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7d268283-c907-4c60-9331-830118f39883",
+                    "path": "<XInputController>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "cañon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b3efc052-62b8-418d-bb95-5eac1c425959",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
